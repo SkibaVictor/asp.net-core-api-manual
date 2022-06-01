@@ -25,7 +25,7 @@
 
 Для работы с .NET 6 **ОБЯЗАТЕЛЬНО** использование Visual Studio 2022, более старые версии не поддерживают .NET 6.
 
-![create-project.png](images/create-project.png)
+![create-project.png](Images/create-project.png)
 
 На рисунке представлено окно создания проекта, для первого модуля необходимо как раз использовать тип проекта Web API, так как нам не нужны еще представления и HTML страницы.
 
@@ -181,7 +181,7 @@ public class WeatherForecastController : ControllerBase
 
 Подключенные библиотеки:
 
-![EF](images/ef.png)
+![EF](Images/ef.png)
 
 Добавляем в файл `appsettings.json` строку подключения к БД
 ```json
@@ -484,7 +484,7 @@ public class AuthController : ControllerBase
 
 Проверим работоспособность методов авторизации:
 
-![Login](images/login.png)
+![Login](Images/login.png)
 
 Как мы видим, при правильном логине и пароле в ответ отдается сгенерированный токен в поле `access_token` в результирующем `JSON`.
 
@@ -512,4 +512,4 @@ public IActionResult TestAdmin()
 
 Проверим работоспособность атрибута:
 
-![TestLogin](images/test_login.png)
+![TestLogin](Images/test_login.png)
